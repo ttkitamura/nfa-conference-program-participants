@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2026 NFA Conference Program (For Presenters Only)</title>
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="loginView" class="center-screen">
+    <div class="login-card">
+      <h1>2026 NFA Conference Program (For Presenters Only)</h1>
+      <p class="muted">Enter password to view the conference program.</p>
+      <input id="passwordInput" type="password" placeholder="Password" />
+      <button id="loginBtn">Enter</button>
+      <p id="loginError" class="error hidden">Wrong password.</p>
+    </div>
+  </div>
+
+  <div id="appView" class="hidden">
+    <header class="app-header">
+      <div>
+        <h1>2026 NFA Conference Preliminary Program</h1>
+        <p class="muted">Mobile Web App (For Presenters Only)</p>
+      </div>
+      <div class="header-actions">
+        <button id="installBtn" class="hidden">Install</button>
+        <button id="logoutBtn">Lock</button>
+      </div>
+    </header>
+
+    <section class="toolbar">
+      <div class="toolbar-row">
+        <button class="tab-btn active" data-view="timetable">Timetable</button>
+        <button class="tab-btn" data-view="sessions">Sessions</button>
+        <button class="tab-btn" data-view="rooms">Rooms</button>
+        <button class="tab-btn" data-view="favorites">Favorites</button>
+      </div>
+
+      <div class="toolbar-row filters">
+        <select id="dayFilter">
+          <option value="ALL">All Days</option>
+        </select>
+        <select id="slotFilter">
+          <option value="ALL">All Slots</option>
+        </select>
+        <select id="languageFilter">
+          <option value="ALL">All Languages</option>
+          <option value="English">English</option>
+          <option value="Japanese">Japanese</option>
+        </select>
+        <input id="searchInput" type="search" placeholder="Search title, presenter, room..." />
+      </div>
+    </section>
+
+    <main id="mainContent"></main>
+  </div>
+
+  <template id="sessionCardTemplate">
+    <article class="session-card">
+      <div class="session-top">
+        <div>
+          <div class="session-meta"></div>
+          <h2 class="session-title"></h2>
+        </div>
+        <button class="favorite-btn" title="Toggle favorite">☆</button>
+      </div>
+      <div class="session-submeta"></div>
+      <div class="papers"></div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

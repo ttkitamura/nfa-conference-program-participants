@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.muted {
+  color: #64748b;
+}
+
+.error {
+  color: #b91c1c;
+}
+
+.center-screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.login-card {
+  width: min(420px, 100%);
+  background: #fff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  margin: 12px 0;
+}
+
+.login-card button,
+.header-actions button,
+.tab-btn,
+.toolbar select,
+.toolbar input,
+.favorite-btn {
+  font: inherit;
+}
+
+.login-card button,
+.header-actions button,
+.tab-btn {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 10px;
+  background: #0f172a;
+  color: #fff;
+  cursor: pointer;
+}
+
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: #fff;
+  padding: 16px 14px;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.app-header h1 {
+  margin: 0 0 4px 0;
+  font-size: 1.25rem;
+}
+
+.header-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.toolbar {
+  padding: 12px 14px;
+  background: #fff;
+  border-bottom: 1px solid #e2e8f0;
+  position: sticky;
+  top: 73px;
+  z-index: 19;
+}
+
+.toolbar-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.toolbar-row + .toolbar-row {
+  margin-top: 8px;
+}
+
+.tab-btn {
+  background: #334155;
+}
+
+.tab-btn.active {
+  background: #0f172a;
+}
+
+.filters select,
+.filters input {
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.filters input {
+  flex: 1;
+  min-width: 220px;
+}
+
+#mainContent {
+  padding: 14px;
+  display: grid;
+  gap: 12px;
+}
+
+.session-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 14px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+  border: 1px solid #e2e8f0;
+}
+
+.session-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.session-title {
+  margin: 4px 0 0 0;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.session-meta,
+.session-submeta {
+  font-size: 0.9rem;
+  color: #475569;
+  line-height: 1.45;
+}
+
+.session-submeta {
+  margin-top: 6px;
+}
+
+.favorite-btn {
+  background: #fff;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 6px 10px;
+  cursor: pointer;
+  color: #0f172a;
+}
+
+.favorite-btn.active {
+  background: #fef3c7;
+  border-color: #f59e0b;
+}
+
+.paper {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.paper-title {
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.paper-title a {
+  text-decoration: none;
+  color: #0f172a;
+}
+
+.paper-title a:hover {
+  text-decoration: underline;
+}
+
+.paper-meta {
+  font-size: 0.9rem;
+  color: #475569;
+  line-height: 1.5;
+  margin-top: 4px;
+}
+
+.timetable-grid {
+  display: grid;
+  gap: 10px;
+}
+
+.slot-block {
+  background: #fff;
+  border-radius: 16px;
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+.slot-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.room-grid {
+  display: grid;
+  gap: 8px;
+}
+
+.room-cell {
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 10px;
+  background: #f8fafc;
+  cursor: pointer;
+}
+
+.room-name {
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.list-header {
+  font-weight: 700;
+  color: #334155;
+  margin: 2px 0 6px 0;
+}
+
+.pill {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: #e2e8f0;
+  font-size: 0.8rem;
+  color: #334155;
+  margin-right: 6px;
+}
+
+@media (min-width: 768px) {
+  #mainContent {
+    padding: 18px;
+  }
+
+  .room-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1100px) {
+  .room-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
