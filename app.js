@@ -1,17 +1,9 @@
-const PASSWORD = "nfa2026";
-const STORAGE_AUTH = "nfa_auth_ok";
 const STORAGE_FAV = "nfa_favorites_v1";
 
 let sessions = [];
 let currentView = "timetable";
 let deferredPrompt = null;
 
-const loginView = document.getElementById("loginView");
-const appView = document.getElementById("appView");
-const loginBtn = document.getElementById("loginBtn");
-const logoutBtn = document.getElementById("logoutBtn");
-const passwordInput = document.getElementById("passwordInput");
-const loginError = document.getElementById("loginError");
 const installBtn = document.getElementById("installBtn");
 const mainContent = document.getElementById("mainContent");
 const dayFilter = document.getElementById("dayFilter");
@@ -37,15 +29,6 @@ function saveFavorites(setObj) {
 
 function sessionKey(s) {
   return `${s.day}__${s.slot}__${s.room}__${s.session_no}`;
-}
-
-function isAuthenticated() {
-  return localStorage.getItem(STORAGE_AUTH) === "1";
-}
-
-function setAuthenticated(v) {
-  if (v) localStorage.setItem(STORAGE_AUTH, "1");
-  else localStorage.removeItem(STORAGE_AUTH);
 }
 
 function groupedValues(key) {
@@ -256,27 +239,6 @@ function renderTimetable(data) {
 }
 
 function attachEvents() {
-  loginBtn.addEventListener("click", () => {
-    if (passwordInput.value === PASSWORD) {
-      setAuthenticated(true);
-      loginError.classList.add("hidden");
-      showApp();
-    } else {
-      loginError.classList.remove("hidden");
-    }
-  });
-
-  passwordInput.addEventListener("keydown", e => {
-    if (e.key === "Enter") loginBtn.click();
-  });
-
-  logoutBtn.addEventListener("click", () => {
-    setAuthenticated(false);
-    appView.classList.add("hidden");
-    loginView.classList.remove("hidden");
-    passwordInput.value = "";
-  });
-
   document.querySelectorAll(".tab-btn").forEach(btn => {
     btn.addEventListener("click", () => {
       document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
@@ -313,12 +275,6 @@ async function loadProgram() {
   render();
 }
 
-function showApp() {
-  loginView.classList.add("hidden");
-  appView.classList.remove("hidden");
-  loadProgram();
-}
-
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
     navigator.serviceWorker.register("./service-worker.js");
@@ -326,7 +282,4 @@ if ("serviceWorker" in navigator) {
 }
 
 attachEvents();
-
-if (isAuthenticated()) {
-  showApp();
-}
+loadProgram();

@@ -3,31 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>2026 NFA Conference Program (For Presenters Only)</title>
+  <title>2026 NFA Conference Program</title>
   <meta name="theme-color" content="#0f172a" />
   <link rel="manifest" href="manifest.json" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="loginView" class="center-screen">
-    <div class="login-card">
-      <h1>2026 NFA Conference Program (For Presenters Only)</h1>
-      <p class="muted">Enter password to view the conference program.</p>
-      <input id="passwordInput" type="password" placeholder="Password" />
-      <button id="loginBtn">Enter</button>
-      <p id="loginError" class="error hidden">Wrong password.</p>
-    </div>
-  </div>
-
-  <div id="appView" class="hidden">
+  <div id="appView">
     <header class="app-header">
       <div>
         <h1>2026 NFA Conference Preliminary Program</h1>
-        <p class="muted">Mobile Web App (For Presenters Only)</p>
+        <p class="muted">Mobile Web App</p>
       </div>
       <div class="header-actions">
         <button id="installBtn" class="hidden">Install</button>
-        <button id="logoutBtn">Lock</button>
       </div>
     </header>
 
@@ -40,12 +29,8 @@
       </div>
 
       <div class="toolbar-row filters">
-        <select id="dayFilter">
-          <option value="ALL">All Days</option>
-        </select>
-        <select id="slotFilter">
-          <option value="ALL">All Slots</option>
-        </select>
+        <select id="dayFilter"><option value="ALL">All Days</option></select>
+        <select id="slotFilter"><option value="ALL">All Slots</option></select>
         <select id="languageFilter">
           <option value="ALL">All Languages</option>
           <option value="English">English</option>

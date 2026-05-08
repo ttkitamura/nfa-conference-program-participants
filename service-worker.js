@@ -1,4 +1,4 @@
-const CACHE_NAME = "nfa-program-v9";
+const CACHE_NAME = "nfa-program-participants-v1";
 
 const URLS = [
   "./",
@@ -8,7 +8,6 @@ const URLS = [
   "./manifest.json"
 ];
 
-// Activate the new service worker immediately.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
   event.waitUntil(
@@ -16,7 +15,6 @@ self.addEventListener("install", (event) => {
   );
 });
 
-// Delete old caches.
 self.addEventListener("activate", (event) => {
   event.waitUntil(
     caches.keys().then(keys =>
@@ -29,7 +27,6 @@ self.addEventListener("activate", (event) => {
   );
 });
 
-// Always fetch program_detailed.json from the network first.
 self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
 
