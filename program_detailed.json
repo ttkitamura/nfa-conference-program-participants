@@ -11,7 +11,7 @@
       {
         "paper_no": 1,
         "paper_id": "60",
-        "paper_title": "Investors’ Endogenous Choices of Trading Cost Patterns",
+        "paper_title": "Endogenous Broker Choice, Investor Heterogeneity, and Stock Prices",
         "presenter": "坂本　淳",
         "affiliation": "大阪学院大学",
         "coauthors": "小川　貴之 (大阪経済大学); 下清水　慎 (東京理科大学)",
@@ -31,7 +31,7 @@
       {
         "paper_no": 3,
         "paper_id": "32",
-        "paper_title": "Economic Consequences of Stock Market Participation: Effects on Investor Wealth",
+        "paper_title": "Stock Market Participation, Asset Prices, and Corporate Investment",
         "presenter": "広田　真一",
         "affiliation": "早稲田大学",
         "coauthors": "",
@@ -52,7 +52,7 @@
       {
         "paper_no": 1,
         "paper_id": "84",
-        "paper_title": "人的資本開示とバリュエーションの関連性について～「サステナビリティに関する考え方及び取組」のテキスト情報について生成AIを補助的に活用して解析～",
+        "paper_title": "PBR に映る人的資本開示の量と質の対照性―「独自性のある指標」に着目した検証―",
         "presenter": "河村剛",
         "affiliation": "野村證券",
         "coauthors": "倉持　純太 (野村證券)",
@@ -93,7 +93,7 @@
       {
         "paper_no": 1,
         "paper_id": "17",
-        "paper_title": "Does ESG Information Increase Firm Risk? Evidence on Monitoring from Credit Lines and Governance by Institutional Investors",
+        "paper_title": "ESG Information and Firm Risk: Liquidity Insurance from Credit Lines and Governance from Institutional Investors",
         "presenter": "Wenhui Zhu",
         "affiliation": "Sapporo University",
         "coauthors": "",
@@ -148,7 +148,7 @@
         "presenter": "陳　柏霖",
         "affiliation": "早稲田大学",
         "coauthors": "",
-        "discussant": "清水良樹",
+        "discussant": "清水良樹 / Yoshiki Shimizu",
         "pdf_link": ""
       },
       {
@@ -157,7 +157,7 @@
         "paper_title": "Never Let Me Go: Why Do Lenders Recall Loaned Shares? Evidence from Japan’s Cross-Shareholding Practice",
         "presenter": "清水良樹 / Yoshiki Shimizu",
         "affiliation": "一橋大学",
-        "coauthors": "三浦真理子 (一橋大学)",
+        "coauthors": "三浦真理子（東洋大学）",
         "discussant": "CHEN YING",
         "pdf_link": ""
       }
@@ -259,7 +259,7 @@
         "paper_id": "76",
         "paper_title": "Reconciling the Insurance-Wealth Puzzle",
         "presenter": "Wing Lam Cheung",
-        "affiliation": "Swiss Finance Institute and University of Geneva",
+        "affiliation": "Swiss Finance Institute and University of Lausanne",
         "coauthors": "Jing Xian (Swiss Finance Institute and University of Geneva)",
         "discussant": "渡邉正太郎 / WATANABE, Shotaro",
         "pdf_link": ""
@@ -288,10 +288,10 @@
       {
         "paper_no": 2,
         "paper_id": "58",
-        "paper_title": "Technological Similarity and Market Reactions to Cross-Industry Tech-Acquisitions",
+        "paper_title": "Shareholder Wealth in Cross-industry Tech Acquisitions",
         "presenter": "Yuanzhe CHENG",
         "affiliation": "Institute of Science Tokyo",
-        "coauthors": "Yuanzhe CHENG (Institute of Science Tokyo); Ying CHEN (Institute of Science Tokyo); Kotaro INOUE (Institute of Science Tokyo)",
+        "coauthors": "Ying Chen (Institute of Science Tokyo); Kotaro Inoue (Institute of Science Tokyo)",
         "discussant": "蔡越",
         "pdf_link": ""
       }
@@ -405,7 +405,7 @@
         "presenter": "Shu-Cing Peng",
         "affiliation": "National Central University",
         "coauthors": "Sheng-Syan Chen (National Taiwan University); Yan-Shing Chen (National Taiwan University)",
-        "discussant": "大坪陽一",
+        "discussant": "大坪 陽一 /Yoichi Otsubo",
         "pdf_link": ""
       },
       {
@@ -446,7 +446,7 @@
         "presenter": "Wikrom Prombutr",
         "affiliation": "California State University, Long Beach",
         "coauthors": "Chanwit Phengpis (California State University, Long Beach)",
-        "discussant": "三輪　宏太郎",
+        "discussant": "三輪　宏太郎 / Kotaro Miwa",
         "pdf_link": ""
       },
       {
@@ -507,16 +507,16 @@
     "slot": "PM3 (17:00–18:30)",
     "room": "Room 2 (8702)",
     "session_no": 92,
-    "session_title": "Presidential Address and General Assembly",
+    "session_title": "会長講演・会員総会, Presidential Address and General Assembly",
     "language": "Japanese",
-    "chair": "TBD",
+    "chair": "太田 亘",
     "papers": [
       {
         "paper_no": 1,
         "paper_id": "92",
-        "paper_title": "会長講演・会員総会, Presidential Address and General Assembly",
-        "presenter": "TBD",
-        "affiliation": "TBD",
+        "paper_title": "価格クラスタリングからみるノイズトレーダーの取引行動",
+        "presenter": "太田 亘",
+        "affiliation": "大阪大学",
         "coauthors": "",
         "discussant": "",
         "pdf_link": ""
@@ -528,7 +528,7 @@
     "slot": "PM4 (18:30–20:00)",
     "room": "Room 6 (8F Kinen Hall)",
     "session_no": 93,
-    "session_title": "Conference Reception (separate fee required)",
+    "session_title": "懇親会（有料）, Conference Reception (separate fee required)",
     "language": "Japanese",
     "chair": "TBD",
     "papers": [
@@ -597,7 +597,7 @@
       {
         "paper_no": 1,
         "paper_id": "70",
-        "paper_title": "Eliciting Composite-Event Beliefs: Evidence from One-Step vs Two-Step Updating in an Urn-Learning Experiment",
+        "paper_title": "Sequential Construction of Composite-Event Beliefs: Evidence from an Urn-Learning Experiment",
         "presenter": "伏屋　広隆",
         "affiliation": "青山学院大学",
         "coauthors": "中里　宗敬 (青山学院大学); 北村　智紀 (武蔵大学)",
@@ -607,17 +607,17 @@
       {
         "paper_no": 2,
         "paper_id": "54",
-        "paper_title": "投資行動と感情の主観的対応構造",
+        "paper_title": "行動バイアスの表出過程における感情との関係性 ―個人投資家の非合理的投資行動に基づく検討―",
         "presenter": "駒井隼人",
         "affiliation": "HARVEST",
-        "coauthors": "宮川大介 (早稲田大学商学部)",
+        "coauthors": "宮川大介 (早稲田大学)",
         "discussant": "和田 良子",
         "pdf_link": ""
       },
       {
         "paper_no": 3,
         "paper_id": "74",
-        "paper_title": "時間選好率・リスク選好および金融リテラシーによる借入行動の違い\\\\ \t\\large ―借入経験のある資金需要者等へのサーベイに基づく分析―",
+        "paper_title": "時間選好率・リスク選好および金融リテラシーによる借入行動の違い ―借入経験のある資金需要者等へのサーベイに基づく分析―",
         "presenter": "和田 良子",
         "affiliation": "敬愛大学 経済学部",
         "coauthors": "河原邦彦 (日本貸金業協会); 岡田涼那 (日本貸金業協会)",
@@ -650,7 +650,7 @@
         "paper_id": "16",
         "paper_title": "Foreign Exchange Interventions, Information, and Intraday Market Dynamics: Evidence from Japan",
         "presenter": "Heather Montgomery",
-        "affiliation": "ICU (International Christian University)",
+        "affiliation": "International Christian University",
         "coauthors": "Opale Guyot (International Christian University)",
         "discussant": "大橋　和彦 / Kazuhiko Ohashi",
         "pdf_link": ""
@@ -683,15 +683,15 @@
         "presenter": "伊藤彰敏",
         "affiliation": "南山大学",
         "coauthors": "菊地和宏",
-        "discussant": "Dr Hasibul Chowdhury",
+        "discussant": "Shunji Mei",
         "pdf_link": ""
       },
       {
         "paper_no": 2,
         "paper_id": "27",
         "paper_title": "More Time, More Risk:  CEO Initial Contract Horizons and the Cost of Debt",
-        "presenter": "Dr Hasibul Chowdhury",
-        "affiliation": "University of Queensland",
+        "presenter": "Shunji Mei",
+        "affiliation": "Adelaide University, Australia",
         "coauthors": "Hasibul Chowdhury (University of Queensland, Australia); Wenbin Hu (University of Queensland, Australia); Shunji Mei (Adelaide University, Australia); Kelvin Jui Keng Tan (University of Queensland, Australia)",
         "discussant": "Jieting Chen",
         "pdf_link": ""
@@ -720,7 +720,7 @@
       {
         "paper_no": 1,
         "paper_id": "33",
-        "paper_title": "Consumption Constraints, Household Heterogeneity, and Non-Monotonic Risk Compensation",
+        "paper_title": "Consumption Rigidity, Household Heterogeneity, and Nonmonotonic Risk Compensation",
         "presenter": "早木 祥夏",
         "affiliation": "神戸大学大学院経営学研究科",
         "coauthors": "",
@@ -745,6 +745,27 @@
         "affiliation": "名古屋市立大学",
         "coauthors": "",
         "discussant": "早木 祥夏",
+        "pdf_link": ""
+      }
+    ]
+  },
+  {
+    "day": "Day2 (June 28, 2026)",
+    "slot": "AM1 (11:00–12:00)",
+    "room": "Room 6 (8F Kinen Hall)",
+    "session_no": 93,
+    "session_title": "データチュートリアルセッション Data Tutorial Session",
+    "language": "Japanese",
+    "chair": "太田亘",
+    "papers": [
+      {
+        "paper_no": 1,
+        "paper_id": "99",
+        "paper_title": "プレゼンテーションの部 データの紹介",
+        "presenter": "TBD",
+        "affiliation": "",
+        "coauthors": "",
+        "discussant": "",
         "pdf_link": ""
       }
     ]
@@ -804,8 +825,8 @@
         "paper_id": "45",
         "paper_title": "Optimal Fuel Procurement in the Renewable Transition with Price Volatility and Policy Targets",
         "presenter": "下清水 慎",
-        "affiliation": "東京理科大学 創域理工学部",
-        "coauthors": "伊藤 和哉 (東京理科大学 創域理工学部); 髙嶋 隆太 (東京理科大学 創域理工学部)",
+        "affiliation": "創域情報学部",
+        "coauthors": "伊藤 和哉 (東京理科大学); 髙嶋 隆太 (東京理科大学)",
         "discussant": "重田雄樹",
         "pdf_link": ""
       },
@@ -842,16 +863,6 @@
     "papers": [
       {
         "paper_no": 1,
-        "paper_id": "37",
-        "paper_title": "The Elusive CAPM: Idiosyncratic News and the Tilt of the Security Market Line",
-        "presenter": "Adam Upenieks",
-        "affiliation": "University of Calgary",
-        "coauthors": "",
-        "discussant": "Madhura Ghosh",
-        "pdf_link": ""
-      },
-      {
-        "paper_no": 2,
         "paper_id": "42",
         "paper_title": "The Explanatory Power of the Fama-French Five-Factor Model in the Indian Stock Market",
         "presenter": "Madhura Ghosh",
@@ -861,13 +872,13 @@
         "pdf_link": ""
       },
       {
-        "paper_no": 3,
+        "paper_no": 2,
         "paper_id": "34",
         "paper_title": "Assessing the Importance of Macroeconomic Announcements",
         "presenter": "Wei Huang",
         "affiliation": "University of Minnesota Duluth",
         "coauthors": "Linda H. Chen (University of Idaho); Wei Huang (University of Minnesota Duluth); George J. Jiang (Washington State University)",
-        "discussant": "Adam Upenieks",
+        "discussant": "Madhura Ghosh",
         "pdf_link": ""
       }
     ]
@@ -918,38 +929,38 @@
     "slot": "PM1 (13:00–15:00)",
     "room": "Room 5 (8701)",
     "session_no": 91,
-    "session_title": "Musashi University Session",
+    "session_title": "武蔵大学セッション Musashi University Session",
     "language": "Japanese",
-    "chair": "TBD",
+    "chair": "北村　智紀",
     "papers": [
       {
         "paper_no": 1,
-        "paper_id": "91",
-        "paper_title": "武蔵大学セッション, Musashi University Session 1",
-        "presenter": "TBD",
-        "affiliation": "TBD",
-        "coauthors": "",
-        "discussant": "TBD",
+        "paper_id": "95",
+        "paper_title": "地域銀行の取締役構成に関する一考察",
+        "presenter": "杉浦　康之",
+        "affiliation": "日興リサーチセンター",
+        "coauthors": "中嶋　幹（武蔵大学）",
+        "discussant": "",
         "pdf_link": ""
       },
       {
         "paper_no": 2,
-        "paper_id": "91",
-        "paper_title": "武蔵大学セッション, Musashi University Session 2",
-        "presenter": "TBD",
-        "affiliation": "TBD",
-        "coauthors": "",
-        "discussant": "TBD",
+        "paper_id": "96",
+        "paper_title": "同族企業における株式所有構造と配当水準",
+        "presenter": "海老原　崇",
+        "affiliation": "武蔵大学",
+        "coauthors": "高橋　孝輔（武蔵大学）",
+        "discussant": "",
         "pdf_link": ""
       },
       {
         "paper_no": 3,
-        "paper_id": "91",
-        "paper_title": "武蔵大学セッション, Musashi University Session 3",
-        "presenter": "TBD",
-        "affiliation": "TBD",
+        "paper_id": "97",
+        "paper_title": "A modified Laguerre polynomial representation of the term structure of convenience yields of crude oil futures",
+        "presenter": "神楽岡 優昌",
+        "affiliation": "武蔵大学",
         "coauthors": "",
-        "discussant": "TBD",
+        "discussant": "",
         "pdf_link": ""
       }
     ]
@@ -976,7 +987,7 @@
       {
         "paper_no": 2,
         "paper_id": "51",
-        "paper_title": "Management succession under long-term tournaments: Evidence from Japan",
+        "paper_title": "Management succession under long-term tournaments: Evidence from Japanese listed subsidiaries",
         "presenter": "内田交謹",
         "affiliation": "早稲田大学",
         "coauthors": "",
@@ -1007,7 +1018,7 @@
       {
         "paper_no": 1,
         "paper_id": "61",
-        "paper_title": "銀行・企業間関係が自社株買いの実施と効果に及ぼす影響",
+        "paper_title": "Hold-up in Bank Equity Sales: Firm-Bank Relationships and Share Repurchases",
         "presenter": "森駿介",
         "affiliation": "学習院大学経営学研究科",
         "coauthors": "鈴木健嗣 (学習院大学経済学部)",
@@ -1033,7 +1044,7 @@
     "session_no": 24,
     "session_title": "Disclosure, Governance, and Misconduct",
     "language": "English",
-    "chair": "岡田克彦 / Katsuhiko Okada",
+    "chair": "岡田克彦",
     "papers": [
       {
         "paper_no": 1,
@@ -1052,7 +1063,7 @@
         "presenter": "Ken Sison",
         "affiliation": "University of Tsukuba",
         "coauthors": "Mina Ryoke (University of Tsukuba); Keisuke Ito (University of Tsukuba)",
-        "discussant": "岡田克彦 / Katsuhiko Okada",
+        "discussant": "岡田克彦",
         "pdf_link": ""
       },
       {
@@ -1115,7 +1126,7 @@
     "session_no": 27,
     "session_title": "Investor Responses to Information Salience",
     "language": "English",
-    "chair": "本多　純 / Jun Honda",
+    "chair": "Jun Honda",
     "papers": [
       {
         "paper_no": 1,
@@ -1123,7 +1134,7 @@
         "paper_title": "Out of Sight, Out of Mind: Tax Salience and Mutual Fund Flows",
         "presenter": "Jing Xian",
         "affiliation": "Swiss Finance Institute and University of Geneva",
-        "coauthors": "",
+        "coauthors": "Phorn-Arpha Phutphithak (Swiss Finance Institute and University of Geneva)",
         "discussant": "Tomoki Kitamura",
         "pdf_link": ""
       },
@@ -1134,15 +1145,15 @@
         "presenter": "Tomoki Kitamura",
         "affiliation": "Musashi University",
         "coauthors": "Kozo Omori (Osaka University of Economics)",
-        "discussant": "本多　純",
+        "discussant": "Jun Honda",
         "pdf_link": ""
       },
       {
         "paper_no": 3,
         "paper_id": "62",
-        "paper_title": "Delayed Detection, Strategic Masking, Swift Blame: Investor Responses to Financial Adviser Misconduct",
-        "presenter": "本多　純 / Jun Honda",
-        "affiliation": "信州大学経法学部",
+        "paper_title": "Hiding in Good Times, Caught in Bad: Strategic Masking and the Delayed Detection of Financial Adviser Misconduct",
+        "presenter": "Jun Honda",
+        "affiliation": "Shinshu University",
         "coauthors": "",
         "discussant": "Jing Xian",
         "pdf_link": ""
