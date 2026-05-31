@@ -509,12 +509,12 @@
     "session_no": 92,
     "session_title": "会長講演・会員総会, Presidential Address and General Assembly",
     "language": "Japanese",
-    "chair": "太田 亘",
+    "chair": "大野早苗",
     "papers": [
       {
         "paper_no": 1,
         "paper_id": "92",
-        "paper_title": "価格クラスタリングからみるノイズトレーダーの取引行動",
+        "paper_title": "価格クラスタリングからみるノイズトレーダーの取引行動 (ZOOM会場：8603)",
         "presenter": "太田 亘",
         "affiliation": "大阪大学",
         "coauthors": "",
@@ -637,16 +637,6 @@
     "papers": [
       {
         "paper_no": 1,
-        "paper_id": "36",
-        "paper_title": "Inelastic Hedging Demand and Intraday Momentum",
-        "presenter": "Feng Zhao",
-        "affiliation": "University of Texas at Dallas",
-        "coauthors": "Taeyoung Park (University of Texas at Dallas)",
-        "discussant": "Heather Montgomery",
-        "pdf_link": ""
-      },
-      {
-        "paper_no": 2,
         "paper_id": "16",
         "paper_title": "Foreign Exchange Interventions, Information, and Intraday Market Dynamics: Evidence from Japan",
         "presenter": "Heather Montgomery",
@@ -656,13 +646,13 @@
         "pdf_link": ""
       },
       {
-        "paper_no": 3,
+        "paper_no": 2,
         "paper_id": "24",
         "paper_title": "Supply and Demand Effects in the Japanese Wholesale Electricity Market during the Global Energy Crisis",
         "presenter": "大橋　和彦 / Kazuhiko Ohashi",
         "affiliation": "一橋大学・東京科学大学 / Hitotsubashi University and Institute of Science Tokyo",
         "coauthors": "Hsiu Wu (MS&AD Systems Co., Ltd); Yohei Yamamoto (Hitotsubashi University and Institute of Science Tokyo)",
-        "discussant": "Feng Zhao",
+        "discussant": "Heather Montgomery",
         "pdf_link": ""
       }
     ]
@@ -931,7 +921,7 @@
     "session_no": 91,
     "session_title": "武蔵大学セッション Musashi University Session",
     "language": "Japanese",
-    "chair": "北村　智紀",
+    "chair": "北村智紀",
     "papers": [
       {
         "paper_no": 1,
@@ -1089,16 +1079,6 @@
     "papers": [
       {
         "paper_no": 1,
-        "paper_id": "2",
-        "paper_title": "Countercyclical Risk Aversion and Volatility-Managed Portfolios",
-        "presenter": "Xia Xu",
-        "affiliation": "ESSCA School of Management, France",
-        "coauthors": "",
-        "discussant": "Terry Zhang",
-        "pdf_link": ""
-      },
-      {
-        "paper_no": 2,
         "paper_id": "38",
         "paper_title": "The Global Implied Volatility Surface and Common Predictability of International Equity Premia",
         "presenter": "Terry Zhang",
@@ -1108,13 +1088,13 @@
         "pdf_link": ""
       },
       {
-        "paper_no": 3,
+        "paper_no": 2,
         "paper_id": "39",
         "paper_title": "Structural Comparison of Cross-Sectional and Time-Series Momentum in Japan and the United States",
         "presenter": "LEE JIHO",
         "affiliation": "一橋大学　経済学研究科",
         "coauthors": "",
-        "discussant": "Xia Xu",
+        "discussant": "Terry Zhang",
         "pdf_link": ""
       }
     ]
