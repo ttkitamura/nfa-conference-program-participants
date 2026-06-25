@@ -1,11 +1,14 @@
-const CACHE_NAME = "nfa-program-participants-v1";
+const CACHE_NAME = "nfa-program-typhoon-no-password-v1";
 
 const URLS = [
   "./",
   "./index.html",
   "./style.css",
   "./app.js",
-  "./manifest.json"
+  "./manifest.json",
+  "./campus_map_typhoon.png",
+  "./venue_map_building8_typhoon.png",
+  "./building6_map_typhoon.png"
 ];
 
 self.addEventListener("install", (event) => {

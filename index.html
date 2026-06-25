@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>2026 NFA Conference Program (v7)</title>
+  <title>2026 NFA Typhoon-Response Shortened Program</title>
   <meta name="theme-color" content="#0f172a" />
   <link rel="manifest" href="manifest.json" />
   <link rel="stylesheet" href="style.css" />
@@ -12,25 +12,44 @@
   <div id="appView">
     <header class="app-header">
       <div>
-        <h1>2026 NFA Conference Program (v7)</h1>
-        <p class="muted">Mobile Web App. Presentation titles, presenter names, coauthor names, and affiliations are, in principle, based on information provided by the presenters.</p>
+        <h1>2026 NFA Typhoon-Response Shortened Program</h1>
+        <p class="muted">Day2 only: Sunday, June 28, 2026 / Mobile Web App</p>
       </div>
       <div class="header-actions">
         <button id="installBtn" class="hidden">Install</button>
       </div>
     </header>
 
+    <section class="program-notice" aria-label="Typhoon response notice">
+      <div class="notice-title">Important update / 重要なお知らせ</div>
+      <div class="notice-grid">
+        <div><strong>Date:</strong> June 28 (Sun), 2026 only</div>
+        <div><strong>Open:</strong> 11:00 / <strong>Sessions:</strong> start at 12:00</div>
+        <div><strong>Slots:</strong> PM1 12:00–13:30, PM2 13:50–15:20, PM3 15:40–17:10</div>
+        <div><strong>Format:</strong> Up to 10 parallel research sessions; 30 minutes per paper</div>
+        <div><strong>Reception:</strong> canceled; refund details will be announced later</div>
+        <div><strong>Data Tutorial:</strong> presentation part canceled; information exchange 12:00–15:00</div>
+        <div><strong>Presidential Address:</strong> not held in this shortened program</div>
+        <div><strong>General Assembly:</strong> PM4 17:20–17:50, Room 8</div>
+      </div>
+    </section>
+
     <section class="toolbar">
       <div class="toolbar-row">
         <button class="tab-btn active" data-view="timetable">Timetable</button>
         <button class="tab-btn" data-view="sessions">Sessions</button>
         <button class="tab-btn" data-view="rooms">Rooms</button>
+        <button class="tab-btn" data-view="maps">Maps</button>
         <button class="tab-btn" data-view="favorites">Favorites</button>
       </div>
 
       <div class="toolbar-row filters">
-        <select id="dayFilter"><option value="ALL">All Days</option></select>
-        <select id="slotFilter"><option value="ALL">All Slots</option></select>
+        <select id="dayFilter">
+          <option value="ALL">All Days</option>
+        </select>
+        <select id="slotFilter">
+          <option value="ALL">All Slots</option>
+        </select>
         <select id="languageFilter">
           <option value="ALL">All Languages</option>
           <option value="English">English</option>

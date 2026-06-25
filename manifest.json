@@ -1,6 +1,6 @@
 {
-  "name": "NFA Conference Program",
-  "short_name": "NFA Program",
+  "name": "NFA Typhoon-Response Shortened Program",
+  "short_name": "NFA Typhoon",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f8fafc",

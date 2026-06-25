@@ -276,3 +276,82 @@ html, body {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+
+.program-notice {
+  background: #fff7ed;
+  border-bottom: 1px solid #fed7aa;
+  padding: 12px 14px;
+  color: #431407;
+}
+
+.notice-title {
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.notice-grid {
+  display: grid;
+  gap: 6px;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.session-notice {
+  margin-top: 8px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: #fef3c7;
+  color: #78350f;
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.special-pill {
+  background: #fee2e2;
+  color: #7f1d1d;
+}
+
+.maps-card h2 {
+  margin-top: 0;
+}
+
+.map-list {
+  display: grid;
+  gap: 18px;
+}
+
+.map-list figure {
+  margin: 0;
+}
+
+.map-list figcaption {
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #334155;
+}
+
+.map-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.narrow-map {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .notice-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1100px) {
+  .notice-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
