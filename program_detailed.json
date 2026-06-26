@@ -804,8 +804,8 @@
   },
   {
     "day": "Day2 (June 28, 2026)",
-    "slot": "PM3 (15:40–17:10)",
-    "room": "Room 3 (8603)",
+    "slot": "PM2 (13:50–15:20)",
+    "room": "Room 9 (6101)",
     "session_no": 24,
     "session_title": "Disclosure, Governance, and Misconduct",
     "language": "English",
@@ -1056,7 +1056,7 @@
       {
         "paper_no": 1,
         "paper_id": "12",
-        "paper_title": "Using Machine Learning to Estimate the Effect of General Partners on Venture Capital Performance",
+        "paper_title": "【Cancelled】Using Machine Learning to Estimate the Effect of General Partners on Venture Capital Performance",
         "presenter": "Mario Daniele Amore",
         "affiliation": "Bocconi University",
         "coauthors": "",
@@ -1080,7 +1080,7 @@
         "presenter": "三輪 宏太郎 / Kotaro Miwa",
         "affiliation": "九州大学",
         "coauthors": "",
-        "discussant": "Mario Daniele Amore",
+        "discussant": "【Cancelled】Mario Daniele Amore",
         "pdf_link": ""
       }
     ],
